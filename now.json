@@ -1,20 +1,7 @@
 {
-  "version": 2,
-  "name": "appointment",
-  "builds": [
-    {
-      "src": "/public/index.html",
-      "use": "@now/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "^/users(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/",
-      "dest": "/public/index.html"
-    }
-  ]
+  "type": "docker",
+  "version": 1,
+  "features": {
+    "cloud": "v1"
+  }
 }
