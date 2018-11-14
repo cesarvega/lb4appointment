@@ -34,7 +34,7 @@ export class Users extends Entity {
 
   @property({
     type: 'boolean',
-    required: true,
+    required: false,
     default: true,
   })
   active: boolean;
